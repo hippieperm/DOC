@@ -20,7 +20,7 @@
 ########################################################
 [Name]=Apple
 [BasedOn]=https://itunes.apple.com
-[IndexUrl]=https://itunes.apple.com/search?country=US&entity=album&term=%s
+[IndexUrl]=https://itunes.apple.com/lookup?country=US&id=%s
 [AlbumUrl]=https://itunes.apple.com/lookup?country=US&entity=song&limit=200&id=
 [WordSeperator]=+
 [IndexFormat]=%_preview%|%_url%|%Artist%|%Album%|%Explicitness%|%Year%|%Tracks%|%Copyright%|%Country/Region%|
